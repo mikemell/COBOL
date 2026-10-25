@@ -1,6 +1,0 @@
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID.     COBHELLO.
-
-       PROCEDURE DIVISION.
-           DISPLAY "HELLO, WORLD!".
-           STOP RUN.

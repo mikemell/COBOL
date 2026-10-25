@@ -7,7 +7,7 @@
        DATE-COMPILED. OCTOBER 5, 2026.
        SECURITY.      UNCLAS.
 
-      ***************************************************************** 
+      *****************************************************************
       *                                                               * 
       * THIS IS THE CLASSIC HELLO WORLD APPLICATION.                  * 
       *                                                               * 
@@ -27,6 +27,6 @@
        WORKING-STORAGE SECTION.
 
        PROCEDURE DIVISION.
-           DISPLAY 'HELLO WORLD!'.
+           DISPLAY 'Hello, world, from a compiled COBOL executable'.
            STOP RUN.
 
