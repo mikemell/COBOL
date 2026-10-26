@@ -4,3 +4,4 @@ bin/
 *.swp
 nohup.out
 launch.json
+src/training/hello
