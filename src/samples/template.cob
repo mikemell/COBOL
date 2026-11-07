@@ -8,7 +8,7 @@
        SECURITY.      [UNCLAS|FOUO|CONFIDENTIAL|SECRET|TOP SECRET].
 
       ******************************************************************
-      * Columns 1-6     Sequence number area (ppplll)                  *
+      * Columns 1-6     Sequence (pppsss)                              *
       * Column 7        Indicator area ("*" = comment,- "=" cont.,     *
       *                   "/" = pagefeed listing, "D" = debug)         *
       * Columns 8-11    Area a                                         *
@@ -24,7 +24,7 @@
       *                       Entries/sentences/statements/clauses     *
       *                       Continuation lines                       *
       *                       Floating comments identified by "*>"     *
-      * Columns 73-80   reserved (system generated number)             *
+      * Columns 73-80  Identification ("PROGNAME")                     *
       ******************************************************************
       /
        ENVIRONMENT DIVISION.
