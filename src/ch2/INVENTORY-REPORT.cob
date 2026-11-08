@@ -1,11 +1,11 @@
        IDENTIFICATION DIVISION.
 
-       PROGRAM-ID.    INV-RPT.
+       PROGRAM-ID.    INVENTORY-REPORT.
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
-       DATE-WRITTEN.  NOVEMBER 6, 2027.
-       DATE-COMPILED. .
-       SECURITY.      FOUO.
+       DATE-WRITTEN.  NOVEMBER 6, 2026.
+       DATE-COMPILED. NOVENBER 8, 2026.
+       SECURITY.      FOR OFFICIAL USE ONLY.
            
       ******************************************************************
       *                                                                *
@@ -26,10 +26,10 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO 'lib/DATASET1.dat'
+             ASSIGN TO '/home/mmell/lib/DATASET1.dat'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'var/INV_RPT.txt'
+             ASSIGN TO 'INVENTORY-REPORT.txt'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.
@@ -62,7 +62,7 @@
            05  PART-DESCRIPTION-REPORT PICTURE X(20).
            05  FILLER                  PICTURE X(7).
            05  QUANTITY-ON-HAND-REPORT PICTURE X(3).
-           05  FILLER                  PICTURE X(80).
+           05  FILLER                  PICTURE X(27).
       /
        WORKING-STORAGE SECTION.
 
@@ -73,9 +73,9 @@
        01  REPORT-TITLE.
       * troubleshooting a minor spacing issue - subtracted six from
       * first filler quantity (and added it to the second).
-           05  FILLER                 PICTURE X(58) VALUE SPACES.
+           05  FILLER                 PICTURE X(32) VALUE SPACES.
            05  FILLER            PICTURE X(16) VALUE 'INVENTORY REPORT'.
-           05  FILLER                 PICTURE X(59) VALUE SPACES.
+           05  FILLER                 PICTURE X(32) VALUE SPACES.
        01  COLUMN-HEADER-LINE-ONE.
            05  FILLER                 PICTURE X VALUE IS SPACE.
            05  FILLER                 PICTURE X(4) VALUE 'PART'.
@@ -83,7 +83,7 @@
            05  FILLER                 PICTURE X(8) VALUE 'QUANTITY'.
            05  FILLER                 PICTURE X(28) VALUE SPACES.
            05  FILLER                 PICTURE X(8) VALUE 'QUANTITY'.
-           05  FILLER                 PICTURE X(78) VALUE SPACES.
+           05  FILLER                 PICTURE X(25) VALUE SPACES.
        01  COLUMN-HEADER-LINE-TWO.
            05  FILLER                 PICTURE X(6) VALUE 'NUMBER'.
            05  FILLER                 PICTURE X(6) VALUE SPACES.
@@ -92,7 +92,7 @@
            05  FILLER                 PICTURE X(11) VALUE 'DESCRIPTION'.
            05  FILLER                 PICTURE X(9) VALUE SPACES.
            05  FILLER                 PICTURE X(7) VALUE 'ON HAND'.
-           05  FILLER                 PICTURE X(79) VALUE SPACES.
+           05  FILLER                 PICTURE X(26) VALUE SPACES.
 
        PROCEDURE DIVISION.
 
