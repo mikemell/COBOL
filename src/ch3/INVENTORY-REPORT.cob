@@ -71,8 +71,6 @@
            05  LINE-NUMBER            PICTURE 9(2) VALUE 1.
            05  ARE-THERE-MORE-RECORDS PICTURE X(3) VALUE 'YES'.
        01  REPORT-TITLE.
-      * troubleshooting a minor spacing issue - subtracted six from
-      * first filler quantity (and added it to the second).
            05  FILLER                 PICTURE X(32) VALUE SPACES.
            05  FILLER            PICTURE X(16) VALUE 'INVENTORY REPORT'.
            05  FILLER                 PICTURE X(32) VALUE SPACES.
@@ -96,7 +94,7 @@
 
        PROCEDURE DIVISION.
 
-       A000-CREATE-POLICY-REPORT.
+       A000-CREATE-INVENTORY-REPORT.
            OPEN INPUT  INPUT-FILE
                 OUTPUT REPORT-FILE.
            READ INPUT-FILE
@@ -112,8 +110,8 @@
            IF LINE-NUMBER = 1
                MOVE REPORT-TITLE to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 6 LINES
-               ADD 6 TO LINE-NUMBER
+                   AFTER ADVANCING 1 LINES
+               ADD 1 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-ONE to REPORT-LINE
                WRITE REPORT-LINE
                    AFTER ADVANCING 2 LINES
