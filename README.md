@@ -11,7 +11,7 @@ area (column 7) of the line, or with a floating comment indicator (*>) as the
 first character-string in the program text area (Area A plus Area B).
 
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. hello.
+       PROGRAM-ID. HELLO.
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
        DATA DIVISION.
