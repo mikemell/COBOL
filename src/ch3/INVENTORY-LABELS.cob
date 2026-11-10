@@ -3,8 +3,8 @@
        PROGRAM-ID.    INVENTORY-LABELS.
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
-       DATE-WRITTEN.  NOVEMBER 8, 2026.
-       DATE-COMPILED. NOVEMBER 8. 2026.
+       DATE-WRITTEN.  NOVEMBER 9, 2026.
+       DATE-COMPILED. NOVEMBER 9. 2026.
        SECURITY.      FOR OFFICIAL USE ONLY.
            
       ******************************************************************
@@ -88,7 +88,7 @@
            MOVE FOOD-DESCRIPTION-INPUT TO FOOD-DESCRIPTION-A-REPORT
            MOVE FOOD-DESCRIPTION-INPUT TO FOOD-DESCRIPTION-B-REPORT
            WRITE REPORT-LINE
-               AFTER ADVANCING 1 LINES
+               BEFORE ADVANCING 1 LINES
            READ INPUT-FILE
                  AT END
                     MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.

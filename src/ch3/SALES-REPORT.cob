@@ -3,8 +3,8 @@
        PROGRAM-ID.    SALES-REPORT.
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
-       DATE-WRITTEN.  NOVEMBER 7, 2026.
-       DATE-COMPILED. NOVEMBER 8, 2026.
+       DATE-WRITTEN.  NOVEMBER 9, 2026.
+       DATE-COMPILED. NOVEMBER 9, 2026.
        SECURITY.      FOR OFFICIAL USE ONLY.
            
       ******************************************************************
@@ -55,51 +55,58 @@
              LABEL RECORDS ARE OMITTED
              DATA RECORD IS REPORT-LINE.
        01  REPORT-LINE.
-           05  FILLER                        PICTURE X(5).
-           05  SALESPERSON-NUMBER-REPORT     PICTURE X(2).
-           05  FILLER                        PICTURE X(7).
-           05  SALESPERSON-NAME-REPORT       PICTURE X(20).
-           05  FILLER                        PICTURE X(9).
-           05  STORE-NUMBER-REPORT           PICTURE X(2).
-           05  FILLER                        PICTURE X(9).
-           05  DEPARTMENT-NUMBER-REPORT      PICTURE X(2).
-           05  FILLER                        PICTURE X(9).
-           05  SALES-AMOUNT-REPORT           PICTURE X(6).
+           05  FILLER                     PICTURE X(5).
+           05  SALESPERSON-NUMBER-REPORT  PICTURE X(2).
+           05  FILLER                     PICTURE X(7).
+           05  SALESPERSON-NAME-REPORT    PICTURE X(20).
+           05  FILLER                     PICTURE X(9).
+           05  STORE-NUMBER-REPORT        PICTURE X(2).
+           05  FILLER                     PICTURE X(9).
+           05  DEPARTMENT-NUMBER-REPORT   PICTURE X(2).
+           05  FILLER                     PICTURE X(9).
+           05  SALES-AMOUNT-REPORT        PICTURE X(6).
       /
        WORKING-STORAGE SECTION.
 
        01  PROGRAM-INDICATORS.
-           05  PAGE-LENGTH                   PICTURE 9(2) VALUE 66.
-           05  LINE-NUMBER                   PICTURE 9(2) VALUE 1.
-           05  ARE-THERE-MORE-RECORDS        PICTURE X(3) VALUE 'YES'.
-       01  REPORT-TITLE.
-           05  FILLER                        PICTURE X(34) VALUE SPACES.
-           05  FILLER                PICTURE X(12) VALUE 'SALES REPORT'.
-           05  FILLER                        PICTURE X(34) VALUE SPACES.
+           05  PAGE-LENGTH              PICTURE 99 VALUE 66.
+           05  LINE-NUMBER              PICTURE 99 VALUE 1.
+           05  LINES-TO-GO              PICTURE 99.
+           05  PAGE-NUMBER              PICTURE 999 VALUE 1.
+           05  ARE-THERE-MORE-RECORDS   PICTURE X(3) VALUE 'YES'.
+       01  REPORT-HEADER.
+           05  FILLER   PICTURE X(34) VALUE SPACES.
+           05  FILLER   PICTURE X(12) VALUE 'SALES REPORT'.
+           05  FILLER   PICTURE X(34) VALUE SPACES.
        01  COLUMN-HEADER-LINE-ONE.
-           05  FILLER                 PICTURE X VALUE IS SPACE.
-           05  FILLER                 PICTURE X(11) VALUE 'SALESPERSON'.
-           05  FILLER                 PICTURE X(6) VALUE SPACES.
-           05  FILLER                 PICTURE X(11) VALUE 'SALESPERSON'.
-           05  FILLER                 PICTURE X(11) VALUE SPACES.
-           05  FILLER                 PICTURE X(5) VALUE 'STORE'.
-           05  FILLER                 PICTURE X(4) VALUE SPACES.
-           05  FILLER                 PICTURE X(11) VALUE 'DEPARTMENT'.
-           05  FILLER                 PICTURE X(5) VALUE SPACES.
-           05  FILLER                 PICTURE X(5) VALUE 'STORE'.
-           05  FILLER                 PICTURE X(10) VALUE SPACES.
+           05  FILLER   PICTURE X VALUE IS SPACE.
+           05  FILLER   PICTURE X(11) VALUE 'SALESPERSON'.
+           05  FILLER   PICTURE X(6) VALUE SPACES.
+           05  FILLER   PICTURE X(11) VALUE 'SALESPERSON'.
+           05  FILLER   PICTURE X(11) VALUE SPACES.
+           05  FILLER   PICTURE X(5) VALUE 'STORE'.
+           05  FILLER   PICTURE X(4) VALUE SPACES.
+           05  FILLER   PICTURE X(11) VALUE 'DEPARTMENT'.
+           05  FILLER   PICTURE X(5) VALUE SPACES.
+           05  FILLER   PICTURE X(5) VALUE 'STORE'.
+           05  FILLER   PICTURE X(10) VALUE SPACES.
        01  COLUMN-HEADER-LINE-TWO.
-           05  FILLER                 PICTURE X(2) VALUE IS SPACES.
-           05  FILLER                 PICTURE X(6) VALUE 'NUMBER'.
-           05  FILLER                 PICTURE X(13) VALUE SPACES.
-           05  FILLER                 PICTURE X(4) VALUE 'NAME'.
-           05  FILLER                 PICTURE X(15) VALUE SPACES.
-           05  FILLER                 PICTURE X(6) VALUE 'NUMBER'.
-           05  FILLER                 PICTURE X(5) VALUE SPACES.
-           05  FILLER                 PICTURE X(6) VALUE 'NUMBER'.
-           05  FILLER                 PICTURE X(7) VALUE SPACES.
-           05  FILLER                 PICTURE X(6) VALUE 'AMOUNT'.
-           05  FILLER                 PICTURE X(10) VALUE SPACES.
+           05  FILLER   PICTURE X(2) VALUE IS SPACES.
+           05  FILLER   PICTURE X(6) VALUE 'NUMBER'.
+           05  FILLER   PICTURE X(13) VALUE SPACES.
+           05  FILLER   PICTURE X(4) VALUE 'NAME'.
+           05  FILLER   PICTURE X(15) VALUE SPACES.
+           05  FILLER   PICTURE X(6) VALUE 'NUMBER'.
+           05  FILLER   PICTURE X(5) VALUE SPACES.
+           05  FILLER   PICTURE X(6) VALUE 'NUMBER'.
+           05  FILLER   PICTURE X(7) VALUE SPACES.
+           05  FILLER   PICTURE X(6) VALUE 'AMOUNT'.
+           05  FILLER   PICTURE X(10) VALUE SPACES.
+       01  REPORT-FOOTER.
+           05  FILLER              PICTURE X(36) VALUE SPACES.
+           05  FILLER              PICTURE X(5) VALUE 'PAGE '.
+           05  PAGE-NUMBER-REPORT  PICTURE ZZ9.
+           05  FILLER              PICTURE X(39) VALUE SPACES.
 
        PROCEDURE DIVISION.
 
@@ -117,21 +124,21 @@
 
        A001-FORMAT-PRINT-LINE.
            IF LINE-NUMBER = 1
-               MOVE REPORT-TITLE to REPORT-LINE
+               MOVE REPORT-HEADER to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 6 LINES
-               ADD 6 TO LINE-NUMBER
+                   BEFORE ADVANCING 2 LINES
+               ADD 2 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-ONE to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 2 LINES
-               ADD 2 TO LINE-NUMBER
+                   BEFORE ADVANCING 1 LINES
+               ADD 1 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-TWO to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
-               ADD 1 TO LINE-NUMBER
+                   BEFORE ADVANCING 2 LINES
+               ADD 2 TO LINE-NUMBER
                MOVE SPACES TO REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
+                   BEFORE ADVANCING 1 LINES
                ADD 1 TO LINE-NUMBER
            ELSE
                MOVE SPACES TO REPORT-LINE
@@ -142,13 +149,27 @@
                MOVE DEPARTMENT-NUMBER-INPUT TO DEPARTMENT-NUMBER-REPORT
                MOVE SALES-AMOUNT-INPUT TO SALES-AMOUNT-REPORT
                WRITE REPORT-LINE
-                   AFTER ADVANCING 2 LINES
+                   BEFORE ADVANCING 2 LINES
                ADD 2 TO LINE-NUMBER.
            IF LINE-NUMBER >= PAGE-LENGTH - 3
                MOVE SPACES TO REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 4 LINES
+                   BEFORE ADVANCING 3 LINES
+               MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
+               MOVE REPORT-FOOTER TO REPORT-LINE
+               WRITE REPORT-LINE
+                   BEFORE ADVANCING 1 LINE
+               ADD 1 TO PAGE-NUMBER GIVING PAGE-NUMBER
                MOVE 1 TO LINE-NUMBER.
            READ INPUT-FILE
-                 AT END
-                    MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.
+               AT END
+                   MOVE SPACES TO REPORT-LINE
+                   MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
+                   SUBTRACT LINE-NUMBER FROM PAGE-LENGTH
+                       GIVING LINES-TO-GO
+                   WRITE REPORT-LINE
+                   AFTER ADVANCING LINES-TO-GO LINES
+                   MOVE REPORT-FOOTER TO REPORT-LINE
+                   WRITE REPORT-LINE
+                       BEFORE ADVANCING 1 LINE
+                   MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.

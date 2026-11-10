@@ -3,8 +3,8 @@
        PROGRAM-ID.    INVENTORY-REPORT.
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
-       DATE-WRITTEN.  NOVEMBER 6, 2026.
-       DATE-COMPILED. NOVENBER 8, 2026.
+       DATE-WRITTEN.  NOVEMBER 9, 2026.
+       DATE-COMPILED. NOVENBER 9, 2026.
        SECURITY.      FOR OFFICIAL USE ONLY.
            
       ******************************************************************
@@ -69,6 +69,8 @@
        01  PROGRAM-INDICATORS.
            05  PAGE-LENGTH            PICTURE 9(2) VALUE 66.
            05  LINE-NUMBER            PICTURE 9(2) VALUE 1.
+           05  LINES-TO-GO            PICTURE 99.
+           05  PAGE-NUMBER            PICTURE 999 VALUE 1.
            05  ARE-THERE-MORE-RECORDS PICTURE X(3) VALUE 'YES'.
        01  REPORT-TITLE.
            05  FILLER                 PICTURE X(32) VALUE SPACES.
@@ -91,6 +93,11 @@
            05  FILLER                 PICTURE X(9) VALUE SPACES.
            05  FILLER                 PICTURE X(7) VALUE 'ON HAND'.
            05  FILLER                 PICTURE X(26) VALUE SPACES.
+       01  REPORT-FOOTER.
+           05  FILLER              PICTURE X(36) VALUE SPACES.
+           05  FILLER              PICTURE X(5) VALUE 'PAGE '.
+           05  PAGE-NUMBER-REPORT  PICTURE ZZ9.
+           05  FILLER              PICTURE X(39) VALUE SPACES.
 
        PROCEDURE DIVISION.
 
@@ -110,19 +117,19 @@
            IF LINE-NUMBER = 1
                MOVE REPORT-TITLE to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
-               ADD 1 TO LINE-NUMBER
+                   BEFORE ADVANCING 2 LINES
+               ADD 2 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-ONE to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 2 LINES
-               ADD 2 TO LINE-NUMBER
+                   BEFORE ADVANCING 1 LINES
+               ADD 1 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-TWO to REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
+                   BEFORE ADVANCING 1 LINES
                ADD 1 TO LINE-NUMBER
                MOVE SPACES TO REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
+                   BEFORE ADVANCING 1 LINES
                ADD 1 TO LINE-NUMBER
            ELSE
                MOVE SPACES TO REPORT-LINE
@@ -131,13 +138,28 @@
                MOVE PART-DESCRIPTION-INPUT TO PART-DESCRIPTION-REPORT
                MOVE QUANTITY-ON-HAND-INPUT TO QUANTITY-ON-HAND-REPORT
                WRITE REPORT-LINE
-                   AFTER ADVANCING 1 LINES
+                   BEFORE ADVANCING 1 LINES
                ADD 1 TO LINE-NUMBER.
-           IF LINE-NUMBER >= PAGE-LENGTH - 3
+           IF LINE-NUMBER >= PAGE-LENGTH - 1
                MOVE SPACES TO REPORT-LINE
                WRITE REPORT-LINE
-                   AFTER ADVANCING 4 LINES
+                   BEFORE ADVANCING 1 LINES
+               MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
+               MOVE REPORT-FOOTER TO REPORT-LINE
+               WRITE REPORT-LINE
+                   BEFORE ADVANCING 1 LINE
+               ADD 1 TO PAGE-NUMBER GIVING PAGE-NUMBER
                MOVE 1 TO LINE-NUMBER.
            READ INPUT-FILE
                  AT END
-                    MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.
+                   MOVE SPACES TO REPORT-LINE
+                   MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
+                   SUBTRACT LINE-NUMBER FROM PAGE-LENGTH
+                       GIVING LINES-TO-GO
+                   WRITE REPORT-LINE
+                   BEFORE ADVANCING LINES-TO-GO LINES
+                   MOVE REPORT-FOOTER TO REPORT-LINE
+                   WRITE REPORT-LINE
+                       BEFORE ADVANCING 1 LINE
+                   MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.
+
