@@ -9,8 +9,8 @@
            
       ******************************************************************
       *                                                                *
-      * PAYROLL-REPORT, A PROGRAM TO PRINT A SALES REPORT BASED ON THE *
-      * DATA IN "./lib/DATASET1.dat"                                   *
+      * PAYROLL-REPORT, A PROGRAM TO PRINT A PAYROLL REPORT BASED ON   *
+      * THE DATA IN "./lib/DATASET1.dat"                               *
       *                                                                *
       ******************************************************************
       /
@@ -76,11 +76,13 @@
        01  PROGRAM-INDICATORS.
            05  ARE-THERE-MORE-RECORDS   PIC X(3) VALUE 'YES'.
                88  THERE-IS-A-RECORD             VALUE 'YES'.
-               88  THERE-ARE-NO-MORE-RECORES     VALUE 'NO'.
+               88  THERE-ARE-NO-MORE-RECORDS     VALUE 'NO'.
        01  PRINTER-CONTROL.
            05  PAGE-LENGTH              PIC 99 VALUE 66.
            05  LINE-NUMBER              PIC 99 VALUE 1.
            05  LINE-SPACING             PIC 9 VALUE 1.
+           05  SINGLE-SPACED        PIC 9 VALUE 1.
+           05  DOUBLE-SPACED        PIC 9 VALUE 2.
            05  LINES-TO-GO              PIC 99.
            05  PAGE-NUMBER              PIC 999 VALUE 1.
        01  PROGRAM-TABLES.
@@ -124,7 +126,8 @@
 
        PROCEDURE DIVISION.
 
-       A000-CREATE-SALES-REPORT.
+       A000-CREATE-PAYROLL-REPORT.
+           MOVE SINGLE-SPACED TO LINE-SPACING.
            OPEN INPUT  INPUT-FILE
                 OUTPUT REPORT-FILE.
            READ INPUT-FILE
@@ -158,12 +161,13 @@
                GIVING TOTAL-PAY-WORK
            MOVE TOTAL-PAY-WORK TO TOTAL-PAY-REPORT
            WRITE REPORT-LINE
-               BEFORE ADVANCING 1 LINES
-           ADD 1 TO LINE-NUMBER.
-           IF LINE-NUMBER >= PAGE-LENGTH - 2
+               BEFORE ADVANCING LINE-SPACING LINES
+           ADD LINE-SPACING TO LINE-NUMBER.
+           SUBTRACT LINE-NUMBER FROM PAGE-LENGTH GIVING LINES-TO-GO.
+           IF LINES-TO-GO <= LINE-SPACING
                MOVE SPACES TO REPORT-LINE
                WRITE REPORT-LINE
-                   BEFORE ADVANCING 2 LINES
+                   BEFORE ADVANCING 1 LINES
                MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
                MOVE REPORT-FOOTER TO REPORT-LINE
                WRITE REPORT-LINE
@@ -174,8 +178,6 @@
                AT END
                    MOVE SPACES TO REPORT-LINE
                    MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
-                   SUBTRACT LINE-NUMBER FROM PAGE-LENGTH
-                       GIVING LINES-TO-GO
                    WRITE REPORT-LINE
                    AFTER ADVANCING LINES-TO-GO LINES
                    MOVE REPORT-FOOTER TO REPORT-LINE
