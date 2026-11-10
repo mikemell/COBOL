@@ -41,87 +41,87 @@
              LABEL RECORDS ARE STANDARD
              DATA RECORD IS INPUT-RECORD.
        01  INPUT-RECORD.
-           05  FILLER                        PIC X(5).
-           05  SALESPERSON-NUMBER-INPUT      PIC 999.
-           05  FILLER                        PIC X.
-           05  SALESPERSON-NAME-INPUT        PIC X(20).
-           05  FILLER                        PIC X(21).
-           05  SALARY-INPUT                  PIC 999V99.
-           05  FILLER                        PIC X.
-           05  COMMISSION-INPUT              PIC 999V99.
+           05  FILLER                      PIC X(5).
+           05  SALESPERSON-NUMBER-INPUT    PIC 999.
+           05  FILLER                      PIC X.
+           05  SALESPERSON-NAME-INPUT      PIC X(20).
+           05  FILLER                      PIC X(21).
+           05  SALARY-INPUT                PIC 999V99.
+           05  FILLER                      PIC X.
+           05  COMMISSION-INPUT            PIC 999V99.
 
        FD  REPORT-FILE
              RECORD CONTAINS 132 CHARACTERS
              LABEL RECORDS ARE OMITTED
              DATA RECORD IS REPORT-LINE.
        01  REPORT-LINE.
-           05  FILLER                     PIC X.
-           05  SALESPERSON-NUMBER-REPORT  PIC ZZ9.
-           05  FILLER                     PIC X(8).
-           05  SALESPERSON-NAME-REPORT    PIC X(20).
-           05  FILLER                     PIC X(6).
-           05  SALARY-REPORT              PIC ZZZ.99.
-           05  FILLER                     PIC X(6).
-           05  COMMISSION-REPORT          PIC ZZZ.99.
-           05  FILLER                     PIC X(6).
-           05  TOTAL-PAY-REPORT           PIC $$,$$$.99.
-           05  FILLER                     PIC X(61).
+           05  FILLER                       PIC X.
+           05  SALESPERSON-NUMBER-REPORT    PIC ZZ9.
+           05  FILLER                       PIC X(8).
+           05  SALESPERSON-NAME-REPORT      PIC X(20).
+           05  FILLER                       PIC X(6).
+           05  SALARY-REPORT                PIC ZZZ.99.
+           05  FILLER                       PIC X(6).
+           05  COMMISSION-REPORT            PIC ZZZ.99.
+           05  FILLER                       PIC X(6).
+           05  TOTAL-PAY-REPORT             PIC $$,$$$.99.
+           05  FILLER                       PIC X(61).
 
        WORKING-STORAGE SECTION.
 
        01  PROGRAM-VALUES.
-           05  SALARY-WORK              PIC 999V99.
-           05  COMMISSION-WORK          PIC 999V99.
-           05  TOTAL-PAY-WORK           PIC 9999V99.
+           05  SALARY-WORK                  PIC 999V99.
+           05  COMMISSION-WORK              PIC 999V99.
+           05  TOTAL-PAY-WORK               PIC 9999V99.
        01  PROGRAM-INDICATORS.
-           05  ARE-THERE-MORE-RECORDS   PIC X(3) VALUE 'YES'.
-               88  THERE-IS-A-RECORD             VALUE 'YES'.
-               88  THERE-ARE-NO-MORE-RECORDS     VALUE 'NO'.
+           05  ARE-THERE-MORE-RECORDS       PIC X(3) VALUE 'YES'.
+               88  THERE-IS-A-RECORD                 VALUE 'YES'.
+               88  THERE-ARE-NO-MORE-RECORDS         VALUE 'NO'.
        01  PRINTER-CONTROL.
-           05  PAGE-LENGTH              PIC 99 VALUE 66.
-           05  LINE-NUMBER              PIC 99 VALUE 1.
-           05  LINE-SPACING             PIC 9 VALUE 1.
-           05  SINGLE-SPACED        PIC 9 VALUE 1.
-           05  DOUBLE-SPACED        PIC 9 VALUE 2.
-           05  LINES-TO-GO              PIC 99.
-           05  PAGE-NUMBER              PIC 999 VALUE 1.
+           05  PAGE-LENGTH                  PIC 99 VALUE 66.
+           05  LINE-NUMBER                  PIC 99 VALUE 1.
+           05  LINE-SPACING                 PIC 9 VALUE 1.
+           05  SINGLE-SPACED                PIC 9 VALUE 1.
+           05  DOUBLE-SPACED                PIC 9 VALUE 2.
+           05  LINES-TO-GO                  PIC 99.
+           05  PAGE-NUMBER                  PIC 999 VALUE 1.
        01  PROGRAM-TABLES.
            05  MONTHS-TABLE.
                10  MONTH-CONSTANTS.
-                   15  FILLER  PIC X(9) VALUE 'JANUARY  '.
-                   15  FILLER  PIC X(9) VALUE 'FEBRUARY '.
-                   15  FILLER  PIC X(9) VALUE 'MARCH    '.
-                   15  FILLER  PIC X(9) VALUE 'APRIL    '.
-                   15  FILLER  PIC X(9) VALUE 'MAY      '.
-                   15  FILLER  PIC X(9) VALUE 'JUNE     '.
-                   15  FILLER  PIC X(9) VALUE 'JULY     '.
-                   15  FILLER  PIC X(9) VALUE 'AUGUST   '.
-                   15  FILLER  PIC X(9) VALUE 'SEPTEMBER'.
-                   15  FILLER  PIC X(9) VALUE 'OCTOBER  '.
-                   15  FILLER  PIC X(9) VALUE 'NOVEMBER '.
-                   15  FILLER  PIC X(9) VALUE 'DECEMBER '.
+                   15  FILLER               PIC X(9) VALUE 'JANUARY  '.
+                   15  FILLER               PIC X(9) VALUE 'FEBRUARY '.
+                   15  FILLER               PIC X(9) VALUE 'MARCH    '.
+                   15  FILLER               PIC X(9) VALUE 'APRIL    '.
+                   15  FILLER               PIC X(9) VALUE 'MAY      '.
+                   15  FILLER               PIC X(9) VALUE 'JUNE     '.
+                   15  FILLER               PIC X(9) VALUE 'JULY     '.
+                   15  FILLER               PIC X(9) VALUE 'AUGUST   '.
+                   15  FILLER               PIC X(9) VALUE 'SEPTEMBER'.
+                   15  FILLER               PIC X(9) VALUE 'OCTOBER  '.
+                   15  FILLER               PIC X(9) VALUE 'NOVEMBER '.
+                   15  FILLER               PIC X(9) VALUE 'DECEMBER '.
                10  MONTH-TABLE REDEFINES MONTH-CONSTANTS
-                               PIC X(9) OCCURS 12 TIMES.
+                                            PIC X(9) OCCURS 12 TIMES.
        01  PAGE-HEADER.
-           05  FILLER   PIC X(59) VALUE SPACES.
-           05  FILLER   PIC X(14) VALUE 'PAYROLL REPORT'.
-           05  FILLER   PIC X(59) VALUE SPACES.
+           05  FILLER                       PIC X(59) VALUE SPACES.
+           05  FILLER                  PIC X(14) VALUE 'PAYROLL REPORT'.
+           05  FILLER                       PIC X(59) VALUE SPACES.
        01  COLUMN-HEADER-LINE-ONE.
-           05  FILLER   PIC X(6) VALUE 'NUMBER'.
-           05  FILLER   PIC X(14) VALUE SPACES.
-           05  FILLER   PIC X(4) VALUE 'NAME'.
-           05  FILLER   PIC X(14) VALUE SPACES.
-           05  FILLER   PIC X(6) VALUE 'SALARY'.
-           05  FILLER   PIC X(4) VALUE SPACES.
-           05  FILLER   PIC X(10) VALUE 'COMMISSION'.
-           05  FILLER   PIC X(4) VALUE SPACES.
-           05  FILLER   PIC X(9) VALUE 'TOTAL PAY'.
-           05  FILLER   PIC X(61) VALUE SPACES.
+           05  FILLER                       PIC X(6) VALUE 'NUMBER'.
+           05  FILLER                       PIC X(14) VALUE SPACES.
+           05  FILLER                       PIC X(4) VALUE 'NAME'.
+           05  FILLER                       PIC X(14) VALUE SPACES.
+           05  FILLER                       PIC X(6) VALUE 'SALARY'.
+           05  FILLER                       PIC X(4) VALUE SPACES.
+           05  FILLER                      PIC X(10) VALUE 'COMMISSION'.
+           05  FILLER                       PIC X(4) VALUE SPACES.
+           05  FILLER                       PIC X(9) VALUE 'TOTAL PAY'.
+           05  FILLER                       PIC X(61) VALUE SPACES.
        01  REPORT-FOOTER.
-           05  FILLER              PIC X(62) VALUE SPACES.
-           05  FILLER              PIC X(5) VALUE 'PAGE '.
-           05  PAGE-NUMBER-REPORT  PIC ZZ9.
-           05  FILLER              PIC X(62) VALUE SPACES.
+           05  FILLER                       PIC X(62) VALUE SPACES.
+           05  FILLER                       PIC X(5) VALUE 'PAGE '.
+           05  PAGE-NUMBER-REPORT           PIC ZZ9.
+           05  FILLER                       PIC X(62) VALUE SPACES.
        
 
        PROCEDURE DIVISION.
@@ -142,45 +142,36 @@
        A001-FORMAT-PRINT-LINE.
            IF LINE-NUMBER = 1
                MOVE PAGE-HEADER to REPORT-LINE
-               WRITE REPORT-LINE
-                   BEFORE ADVANCING 2 LINES
+               WRITE REPORT-LINE BEFORE ADVANCING 2 LINES
                ADD 2 TO LINE-NUMBER
                MOVE COLUMN-HEADER-LINE-ONE to REPORT-LINE
-               WRITE REPORT-LINE
-                   BEFORE ADVANCING 2 LINES
+               WRITE REPORT-LINE BEFORE ADVANCING 2 LINES
                ADD 2 TO LINE-NUMBER.
            MOVE SPACES TO REPORT-LINE
-           MOVE SALESPERSON-NUMBER-INPUT
-               TO SALESPERSON-NUMBER-REPORT
+           ADD SALARY-WORK TO COMMISSION-WORK GIVING TOTAL-PAY-WORK
+           MOVE SALESPERSON-NUMBER-INPUT TO SALESPERSON-NUMBER-REPORT
            MOVE SALESPERSON-NAME-INPUT TO SALESPERSON-NAME-REPORT
            MOVE SALARY-INPUT TO SALARY-REPORT
            MOVE COMMISSION-INPUT TO COMMISSION-REPORT
            MOVE SALARY-INPUT TO SALARY-WORK
            MOVE COMMISSION-INPUT TO COMMISSION-WORK
-           ADD SALARY-WORK TO COMMISSION-WORK
-               GIVING TOTAL-PAY-WORK
            MOVE TOTAL-PAY-WORK TO TOTAL-PAY-REPORT
-           WRITE REPORT-LINE
-               BEFORE ADVANCING LINE-SPACING LINES
+           WRITE REPORT-LINE BEFORE ADVANCING LINE-SPACING LINES
            ADD LINE-SPACING TO LINE-NUMBER.
            SUBTRACT LINE-NUMBER FROM PAGE-LENGTH GIVING LINES-TO-GO.
            IF LINES-TO-GO <= LINE-SPACING
                MOVE SPACES TO REPORT-LINE
-               WRITE REPORT-LINE
-                   BEFORE ADVANCING 1 LINES
+               WRITE REPORT-LINE BEFORE ADVANCING 1 LINES
                MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
                MOVE REPORT-FOOTER TO REPORT-LINE
-               WRITE REPORT-LINE
-                   BEFORE ADVANCING 1 LINE
-               ADD 1 TO PAGE-NUMBER GIVING PAGE-NUMBER
+               WRITE REPORT-LINE BEFORE ADVANCING 1 LINE
+               ADD 1 TO PAGE-NUMBER 
                MOVE 1 TO LINE-NUMBER.
            READ INPUT-FILE
                AT END
                    MOVE SPACES TO REPORT-LINE
                    MOVE PAGE-NUMBER TO PAGE-NUMBER-REPORT
-                   WRITE REPORT-LINE
-                   AFTER ADVANCING LINES-TO-GO LINES
+                   WRITE REPORT-LINE AFTER ADVANCING LINES-TO-GO LINES
                    MOVE REPORT-FOOTER TO REPORT-LINE
-                   WRITE REPORT-LINE
-                       BEFORE ADVANCING 1 LINE
+                   WRITE REPORT-LINE BEFORE ADVANCING 1 LINE
                    MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.
