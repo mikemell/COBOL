@@ -4,13 +4,13 @@
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
        DATE-WRITTEN.  NOVEMBER 9, 2026.
-       DATE-COMPILED. NOVEMBER 9. 2026.
-       SECURITY.      FOR OFFICIAL USE ONLY.
+       DATE-COMPILED. NOVEMBER 12. 2026.
+       SECURITY.      UNCLASSIFIED.
            
       ******************************************************************
       *                                                                *
       * INVENTORY-LABELS, A PROGRAM TO PRINT INVENTORY LABELS FROM     *
-      * IN "./lib/DATASET3.dat"                                        *
+      * IN "./lib/DATASET3.DAT"                                        *
       *                                                                *
       ******************************************************************
       /
@@ -18,18 +18,18 @@
 
        CONFIGURATION SECTION.
 
-       SOURCE-COMPUTER. homer.
-       OBJECT-COMPUTER. odysseus.
+       SOURCE-COMPUTER. Linux x86_64.
+       OBJECT-COMPUTER. Linux x86_64.
 
        INPUT-OUTPUT SECTION.
 
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET3.dat'
+             ASSIGN TO '/home/mmell/lib/DATASET3.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'INVENTORY-LABELS.txt'
+             ASSIGN TO 'INVENTORY-LABELS.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

@@ -10,7 +10,7 @@
       ******************************************************************
       *                                                                *
       * INV-RPT, A PROGRAM TO PRINT AN INVENTORY REPORT BASED ON THE   *
-      * DATA IN "./lib/DATASET1.dat"                                   *
+      * DATA IN "./lib/DATASET1.DAT"                                   *
       *                                                                *
       ******************************************************************
       /
@@ -18,18 +18,18 @@
 
        CONFIGURATION SECTION.
 
-       SOURCE-COMPUTER. homer.
-       OBJECT-COMPUTER. odysseus.
+       SOURCE-COMPUTER. Linux x86_64.
+       OBJECT-COMPUTER. Linux x86_64.
 
        INPUT-OUTPUT SECTION.
 
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET1.dat'
+             ASSIGN TO '/home/mmell/lib/DATASET1.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'INVENTORY-REPORT.txt'
+             ASSIGN TO 'INVENTORY-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

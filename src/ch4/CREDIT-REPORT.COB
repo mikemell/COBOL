@@ -10,7 +10,7 @@
       ******************************************************************
       *                                                                *
       * CREDIT-REPORT, A PROGRAM TO PRINT A PAYROLL REPORT BASED ON    *
-      * THE DATA IN "./lib/DATASET2.dat"                               *
+      * THE DATA IN "./lib/DATASET2.DAT"                               *
       *                                                                *
       ******************************************************************
       /
@@ -18,18 +18,18 @@
 
        CONFIGURATION SECTION.
 
-       SOURCE-COMPUTER. homer.
-       OBJECT-COMPUTER. odysseus.
+       SOURCE-COMPUTER. Linux x86_64.
+       OBJECT-COMPUTER. Linux x86_64.
 
        INPUT-OUTPUT SECTION.
 
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET2.dat'
+             ASSIGN TO '/home/mmell/lib/DATASET2.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'CREDIT-REPORT.txt'
+             ASSIGN TO 'CREDIT-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.
