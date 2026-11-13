@@ -1,0 +1,594 @@
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+
+                                    PAGE   1
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+
+                                    PAGE   2
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+
+                                    PAGE   3
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+
+                                    PAGE   4
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+
+                                    PAGE   5
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+
+                                    PAGE   6
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+
+                                    PAGE   7
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+ 1410        045       FRONT DISK BRAKES          031
+ 1561        105       HEAD LIGHTS                075
+ 1176        016       NYLON GAS PEDALS           007
+ 1813        005       BUCKET SEAT                010
+ 1887        010       1" TRAILER HITCH           002
+ 1914        213       TORQUE WRENCHES            110
+ 1957        075       4 PLY RADIAL TIRES         056
+ 2045        011       6' JUMPER CABLES           004
+ 2076        017       SETS OF 4 HEX NUTS         005
+ 2189        020       5" WINDSHIELD BLADES       023
+ 2201        192       PLASTIC FOLOOR MATS        047
+ 2250        365       WOOD STEERING WHEELS       102
+ 2275        078       POINTS AND PLUGS           002
+ 2323        045       LOCK DE-ICER               010
+ 2357        056       MOTORALL 10W30 OIL         023
+ 2789        900       GENERATORS                 090
+ 3578        098       1/2" VACUUM LINES          004
+ 3971        134       METRIC SOCKET SETS         103
+ 3989        021       FLOOR CLEANER              004
+ 4456        024       2 TON CAR RAMPS            010
+ 4692        076       TRANSMISSION KITS          080
+ 4789        078       OIL PANS                   011
+
+                                    PAGE   8
+                                INVENTORY REPORT
+
+ PART      QUANTITY                            QUANTITY
+NUMBER      SOLD           DESCRIPTION         ON HAND
+
+ 4987        099       OPERATORS MANUALS          001
+ 4139        020       HI/LO DIMMER SWITCH        010
+ 5983        089       RACING STRIPE KITS         045
+ 5999        100       OIL CHANGE KIT             090
+ 6134        050       INTERIOR LIGHT BULBS       004
+ 6297        008       SET OF 2 FOG LIGHTS        001
+ 6156        023       DISTRIBUTOR CAPS           010
+ 6489        023       TIMING GEARS               110
+ 6598        067       SECURITY SYSTEM            010
+ 6701        067       CRUISE CONTROL             055
+ 7980        078       SET OF 4 HUB CAPS          067
+ 8379        023       AXLE GREASE (GALLON)       001
+ 8567        056       NO-WIPE CAR POLISH         004
+ 8673        020       CAR WAXERS                 090
+ 8674        056       GREASE-B-GONE WASHER       034
+ 8732        045       SUNNY SUNROOF KIT          011
+ 8845        005       ROAD MAPS                  001
+ 8913        052       2-WAY OIL FILTER           010
+ 8957        098       ENGINE BLOCKS              402
+ 8975        045       TRANSMISSION FLUID         045
+ 9003        067       NO-SLIP BRAKE FLUID        050
+ 9156        344       NO-LEAK RADIATORS          120
+ 9245        009       SPARKLES PAINT             009
+ 9347        090       CHROME POLISH              019
+ 9467        078       VINYL TOP KITS             087
+ 9610        090       6" ROUND HEADLIGHTS        087
+ 9763        030       NO-FUSS FUZZ BUSTER        030
+ 9908        230       GLASS WINDOWS              200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    PAGE   9

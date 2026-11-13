@@ -1,0 +1,594 @@
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 141        ALBERS, STEVEN            220.34      310.45           $.00
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+
+                                                              PAGE   1
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+
+                                                              PAGE   2
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+
+                                                              PAGE   3
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+
+                                                              PAGE   4
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+
+                                                              PAGE   5
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+
+                                                              PAGE   6
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+
+                                                              PAGE   7
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+ 141        ALBERS, STEVEN            220.34      310.45        $191.20
+ 156        CANATERRA, CANDY          630.45      751.05        $530.79
+ 117        5CHENEY, MAXINE           140.34       70.16      $1,381.50
+ 181        CRAIG, MARY LOU           434.57      100.05        $210.50
+ 188        DUFFY, MARCUS             223.45       20.10        $534.62
+ 191        EPPLY, DERVIS             130.56      102.13        $243.55
+ 195        FIEDLER, FERN             503.45      560.75        $232.69
+ 204        GARCIA, FRANCIS           212.33       40.11      $1,064.20
+ 207        KOON, BARNEY L.           103.40       50.17        $252.44
+ 218        KOWALSKI, PATRICK         305.67      230.20        $153.57
+ 220        LICHFIELD, SANDRA         604.50      471.92        $535.87
+ 225        LUBNER, SALLY R.          454.59       23.65      $1,076.42
+ 227        MARQUARDT, MICHAEL        134.55       20.78        $478.24
+ 232        MARTIN, JUSTIN B.         309.83      100.45        $155.33
+ 235        MCGILL, MARTIN J.         456.76      230.56        $410.28
+ 278        MEEGAN, JULIE R.          656.78      909.00        $687.32
+ 357        MUFFINS, ROBERT L.        167.87       40.98      $1,565.78
+ 397        NAPOLITAN, SHEILA R.      501.23       31.34        $208.85
+ 398        NOWICKI, OZZIE L.         234.56       40.21        $532.57
+ 445        PEACOCK, GERALD M.        100.45      100.24        $274.77
+ 469        PEREZ, MARTINIQUE A.      501.73      800.76        $200.69
+ 478        POSTEN, THOMAS E.         402.34      110.78      $1,302.49
+ 498        REESES, LAURA W.          227.84       10.99        $513.12
+ 413        RENO, STEVEN B.           406.39      100.20        $238.83
+ 598        ROTHCHILD, RUTH C.        334.04      450.89        $506.59
+ 599        SAMMS, CARLA P.           692.34      901.00        $784.93
+ 613        SCHMIDT, CHUCK H.         123.02       40.50      $1,593.34
+ 629        SHARP, CRAIG I.           378.09       10.08        $163.52
+ 615        SHORT, BRENDA B.          298.34      100.23        $388.17
+ 648        SKINNER, CARL S.          507.89      100.23        $398.57
+
+                                                              PAGE   8
+                                                           PAYROLL REPORT
+
+NUMBER              NAME              SALARY    COMMISSION    TOTAL PAY
+
+ 659        SPRINGSTEIN, ALBERT       609.29      100.67        $608.12
+ 670        STROH, ALEXIS M.          428.56      550.67        $709.96
+ 798        SWEENEY, ROGER W.         503.45      670.78        $979.23
+ 837        TEEPLE, THOMAS T.         123.47       10.23      $1,174.23
+ 856        TOMCHUCK, FREDERICK       303.75       40.56        $133.70
+ 867        TOMLIN, PETER S.          698.45      900.20        $344.31
+ 867        TOWNLEY, ASTIN R.         556.28      340.56      $1,598.65
+ 873        TOWNS, BEVERLY            223.45      110.45        $896.84
+ 884        TRAKSO, ALLEN R.          103.04       10.05        $333.90
+ 891        TRUSKOWSKI, MIKE          230.40      100.52        $113.09
+ 895        TURNER, CHARLES A.        403.78       20.98        $330.92
+ 897        TYLER, MARY M.            309.23      450.45        $424.76
+ 900        ULMER, FRED F.            404.50      500.67        $759.68
+ 915        URMY, AMY A.              193.40      203.44        $905.17
+ 924        VARTY, VERNON S.          200.98       90.09        $396.84
+ 934        VINCENT, BOBBY L.         629.84      190.90        $291.07
+ 946        WADHAM, LARRY L           400.86      870.78        $820.74
+ 961        WALKER, JERRY F.          558.70      870.90      $1,271.64
+ 976        WENDT, WENDY Y.           245.98      300.30      $1,429.60
+ 990        ZELLER, ARTHUR            188.90        2.30        $546.28
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                              PAGE   9

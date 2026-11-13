@@ -1,0 +1,1188 @@
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+
+
+
+                                    PAGE   1
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+
+
+
+                                    PAGE   2
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+
+
+
+                                    PAGE   3
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+
+
+
+                                    PAGE   4
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+
+
+
+                                    PAGE   5
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+
+
+
+                                    PAGE   6
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+
+
+
+                                    PAGE   7
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+
+
+
+                                    PAGE   8
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+
+
+
+                                    PAGE   9
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+
+
+
+                                    PAGE  10
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+
+
+
+                                    PAGE  11
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+
+
+
+                                    PAGE  12
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+
+
+
+                                    PAGE  13
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+
+
+
+                                    PAGE  14
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+
+
+
+                                    PAGE  15
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+
+
+
+                                    PAGE  16
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+     01       ALBERT, PETER A.             10         01         012021
+
+     03       ALLENSON, SHEILA M.          10         01         023868
+
+     05       ANDERSON, ARLENE T.          10         01         012593
+
+     07       BILLINGS, BARBARA            10         01         013703
+
+     09       CANNON, CAROLE C.            10         01         006739
+
+     10       CHAPMAN, RONA L.             10         03         015694
+
+     12       CLAFFLIN, WALTER E.          10         03         012501
+
+     13       COMPANA, ESTER               10         03         018901
+
+     15       COOPER, BART B.              10         03         004567
+
+     16       CRAIGS, ELAINE               10         03         001273
+
+     18       DOGGINS, CARL                10         03         013457
+
+     29       DOWNING, EARLE S.            10         03         048731
+
+     30       DRIFT, CHRISTOPHER           10         05         000537
+
+     31       ERIKSON, BRIT E.             10         05         023456
+
+     32       FREEMAN, ROBERT F.           10         05         005793
+
+     35       FRONT, CHARLES L.            10         05         014573
+
+     37       GARCIA, JOSE                 10         05         074563
+
+     38       HATFIELD, FRED R.            10         07         035685
+
+     39       HELLER, KAREN S.             10         07         004567
+
+     40       HENDRIX, SHIRLEY D.          10         07         003482
+
+     42       ISLANDER, JENNE              10         07         035478
+
+     43       LADA, LAWRENCE S.            10         07         045008
+
+     45       LADD, DAVID L.               10         07         003468
+
+     47       LAMB, EDWARD R.              10         09         039844
+
+     48       LEELAND, WESLEY R.           10         09         007383
+
+     49       LOFTIS, DOUBLAS L.           10         09         007037
+
+
+
+
+                                    PAGE  17
+                                  SALES REPORT
+
+ SALESPERSON      SALESPERSON           STORE    DEPARTMENT      STORE
+  NUMBER             NAME               NUMBER     NUMBER       AMOUNT
+
+
+     50       MILLER, SUSAN S.             10         09         037598
+
+     51       MUDGLEY, BRENDA              20         01         035684
+
+     52       NICKELS, KATHY               20         01         103008
+
+     54       NOWAKOWSKI, ALLEN T.         20         01         034593
+
+     55       PATTERSON, PATTI             20         03         089067
+
+     56       PETERSON, JACK E.            20         03         034509
+
+     57       PETERSON, TONY L.            20         03         120099
+
+     58       PLANTARA, CARLA P.           20         03         065509
+
+     59       RASKIN, RUTH E.              20         03         090331
+
+     60       SANDERSON, PAULETTE          20         05         125693
+
+     62       SAUNDERS, GEORGE P.          20         05         040506
+
+     64       SINGER, ALEXIS E.            20         05         003485
+
+     65       SUMMERS, APRIL L.            20         05         078901
+
+     67       SWEET, SUSAN R.              20         05         093454
+
+     69       TANDY, TRICIA S.             20         07         083945
+
+     70       TERRY, RON                   20         07         053092
+
+     73       TONEY, IRA L.                20         07         083989
+
+     75       UPLAND, JILL I.              20         07         089878
+
+     79       VANBUREN, ERIN F.            20         07         043544
+
+     80       WALLACE, STEVEN              20         09         089799
+
+     85       WALTON, WOODROW R.           20         09         007839
+
+     87       YULANE, ARTHUR M.            20         09         012345
+
+     90       ZIPPO, WANDA                 20         09         008475
+
+     95       ZOONEY, MARBIN B.            20         09         093855
+
+
+
+
+
+
+
+
+
+
+
+
+                                    PAGE  18
