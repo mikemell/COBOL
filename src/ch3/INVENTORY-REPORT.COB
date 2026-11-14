@@ -4,13 +4,13 @@
        AUTHOR.        MICHAEL S. MELL.
        INSTALLATION.  TT ODYSSEY, 41786AL.
        DATE-WRITTEN.  NOVEMBER 9, 2026.
-       DATE-COMPILED. NOVENBER 9, 2026.
+       DATE-COMPILED. NOVENBER 12, 2026.
        SECURITY.      FOR OFFICIAL USE ONLY.
            
       ******************************************************************
       *                                                                *
       * INV-RPT, A PROGRAM TO PRINT AN INVENTORY REPORT BASED ON THE   *
-      * DATA IN "./lib/DATASET1.DAT"                                   *
+      * DATA IN "/usr/local/lib/DATASET1.DAT"                          *
       *                                                                *
       ******************************************************************
       /
@@ -26,10 +26,10 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET1.DAT'
+             ASSIGN TO '/usr/local/lib/DATASET1.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'INVENTORY-REPORT.TXT'
+             ASSIGN TO '/usr/local/lib/scpe/INVENTORY-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

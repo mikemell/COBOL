@@ -10,7 +10,7 @@
       ******************************************************************
       *                                                                *
       * INVENTORY-LABELS, A PROGRAM TO PRINT INVENTORY LABELS FROM     *
-      * IN "./lib/DATASET3.DAT"                                        *
+      * IN "/usr/local/lib/DATASET3.DAT"                               *
       *                                                                *
       ******************************************************************
       /
@@ -26,10 +26,10 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET3.DAT'
+             ASSIGN TO '/usr/local/lib/DATASET3.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'INVENTORY-LABELS.TXT'
+             ASSIGN TO '/usr/local/var/scpe/INVENTORY-LABELS.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

@@ -10,7 +10,7 @@
       ******************************************************************
       *                                                                *
       * USER-RPT, A PROGRAM TO PRINT A SALES REPORT BASED ON THE DATA  *
-      * IN "./lib/DATASET4.DAT"                                        *
+      * IN "usr/local/lib/DATASET4.DAT"                                *
       *                                                                *
       ******************************************************************
       /
@@ -26,10 +26,10 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET4.DAT'
+             ASSIGN TO '/usr/local/lib/DATASET4.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'USER-REPORT.TXT'
+             ASSIGN TO '/usr/local/lib/scpe/USER-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.
