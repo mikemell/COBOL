@@ -10,7 +10,7 @@
       ******************************************************************
       *                                                                *
       * TAX-REPORT, A PROGRAM TO PRINT A TAX REPORT BASED ON THE DATA  *
-      * IN "./lib/DATASET3.DAT"                                        *
+      * IN "/usr/local/lib/DATASET3.DAT"                               *
       *                                                                *
       ******************************************************************
       /
@@ -27,7 +27,7 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET3.DAT'
+             ASSIGN TO '/usr/local/lib/DATASET3.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
              ASSIGN TO 'TAX-REPORT.TXT'

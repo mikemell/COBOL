@@ -29,7 +29,7 @@
              ASSIGN TO '/usr/local/lib/DATASET1.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO '/usr/local/lib/scpe/INVENTORY-REPORT.TXT'
+             ASSIGN TO 'INVENTORY-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

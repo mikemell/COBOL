@@ -29,7 +29,7 @@
              ASSIGN TO '/usr/local/lib/DATASET2.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO '/usr/local/lib/scpe/SALES-REPORT.TXT'
+             ASSIGN TO 'SALES-REPORT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.

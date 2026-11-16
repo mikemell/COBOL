@@ -9,8 +9,8 @@
            
       ******************************************************************
       *                                                                *
-      * CREDIT-REPORT, A PROGRAM TO PRINT A PAYROLL REPORT BASED ON    *
-      * THE DATA IN "./lib/DATASET2.DAT"                               *
+      * CREDIT-REPORT, A PROGRAM TO PRINT A CREDIT REPORT BASED ON THE *
+      * DATA IN "/usr/local/lib/DATASET2.DAT"                          *
       *                                                                *
       ******************************************************************
       /
@@ -26,7 +26,7 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/home/mmell/lib/DATASET2.DAT'
+             ASSIGN TO '/usr/local/lib/DATASET2.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
              ASSIGN TO 'CREDIT-REPORT.TXT'
