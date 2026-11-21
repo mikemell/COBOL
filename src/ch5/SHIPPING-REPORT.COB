@@ -1,103 +1,119 @@
-       IDENTIFICATION DIVISION.
-
-       PROGRAM-ID.    SHIPPING-REPORT.
-       AUTHOR.        MICHAEL S. MELL.
-       INSTALLATION.  TT ODYSSEY, 41786AL.
-       DATE-WRITTEN.  NOVEMBER 16, 2026.
-       DATE-COMPILED. NOVEMBER , 2026.
-       SECURITY.      UNCLASSIFIED.
-           
-      ******************************************************************
-      *                                                                *
-      * SHIPPING-REPORT, A PROGRAM TO PRINT A SHIPPING REPORT BASED ON *
-      * THE DATA IN "/usr/local/lib/DATASET1.DAT"                      *
-      *                                                                *
-      ******************************************************************
-
-       ENVIRONMENT DIVISION.
-
-       CONFIGURATION SECTION.
-
-       SOURCE-COMPUTER. Linux x86_64.
-       OBJECT-COMPUTER. Linux x86_64.
-       SPECIAL-NAMES.
-
-       INPUT-OUTPUT SECTION.
-
-       FILE-CONTROL.
-
-           SELECT INPUT-FILE
-             ASSIGN TO '/usr/local/lib/scpe/DATASET1.DAT'
-             ORGANIZATION IS LINE SEQUENTIAL.
-           SELECT REPORT-FILE
-             ASSIGN TO 'SHIPPING-REPORT.TXT'
-             ORGANIZATION IS LINE SEQUENTIAL.
-      /
-       DATA DIVISION.
-
-       FILE SECTION.
-
-       FD  INPUT-FILE
-             RECORD CONTAINS 61 CHARACTERS
-             LABEL RECORDS ARE STANDARD
-             DATA RECORD IS INPUT-RECORD.
-       01  INPUT-RECORD.
-           05  FILLER                  PIC X(5).
-           05  PACKAGE-NUMBER-INPUT    PIC 9(4).
-
-       FD  REPORT-FILE
-             RECORD CONTAINS 132 CHARACTERS
-             LABEL RECORDS ARE OMITTED
-             DATA RECORD IS REPORT-LINE.
-       01  REPORT-LINE.
-           05  FILLER                  PIC X(2)    VALUE SPACES.
-           05  PACKAGE-NUMBER-REPORT   PIC ZZZ9.
-
-       WORKING-STORAGE SECTION.
-
-       01  PROGRAM-INDICATORS.
-           05  ARE-THERE-MORE-RECORDS   PIC X(3)   VALUE 'YES'.
-               88  THERE-IS-A-RECORD               VALUE 'YES'.
-               88  THERE-ARE-NO-MORE-RECORDS       VALUE 'NO'.
-
-
-       01  PROGRAM-TABLES.
-           05  MONTHS-TABLE.
-               10  MONTH-CONSTANTS.
-                   15  FILLER           PIC X(9)   VALUE 'JANUARY  '.
-                   15  FILLER           PIC X(9)   VALUE 'FEBRUARY '.
-                   15  FILLER           PIC X(9)   VALUE 'MARCH    '.
-                   15  FILLER           PIC X(9)   VALUE 'APRIL    '.
-                   15  FILLER           PIC X(9)   VALUE 'MAY      '.
-                   15  FILLER           PIC X(9)   VALUE 'JUNE     '.
-                   15  FILLER           PIC X(9)   VALUE 'JULY     '.
-                   15  FILLER           PIC X(9)   VALUE 'AUGUST   '.
-                   15  FILLER           PIC X(9)   VALUE 'SEPTEMBER'.
-                   15  FILLER           PIC X(9)   VALUE 'OCTOBER  '.
-                   15  FILLER           PIC X(9)   VALUE 'NOVEMBER '.
-                   15  FILLER           PIC X(9)   VALUE 'DECEMBER '.
-               10  MONTH-TABLE REDEFINES MONTH-CONSTANTS
-                                        PIC X(9)   OCCURS 12 TIMES.
-       01  PAGE-HEADER.
-           05  FILLER                   PIC X(59)  VALUE SPACES.
-           05  FILLER             PIC X(14)    VALUE 'SHIPPING REPORT'.
-           05  FILLER                   PIC X(59)  VALUE SPACES.
-       01  COLUMN-HEADER-LINE-ONE.
-           05  FILLER                   PIC X(8)   VALUE ''.
-           05  FILLER                   PIC X(9)   VALUE SPACES.
-           05  FILLER                   PIC X(8)   VALUE ''.
-           05  FILLER                   PIC X(11)  VALUE SPACES.
-           05  FILLER                   PIC X(8)   VALUE ''.
-           05  FILLER                   PIC X(5)   VALUE SPACES.
-           05  FILLER                   PIC X(8)   VALUE ''.
-           05  FILLER                   PIC X(3)   VALUE SPACES.
-           05  FILLER                   PIC X(8)   VALUE ''.
-           05  FILLER                   PIC X(4)   VALUE SPACES.
-           05  FILLER                   PIC X(7)   VALUE ''.
-           05  FILLER                   PIC X(4)   VALUE SPACES.
-           05  FILLER                   PIC X(7)   VALUE ''.
-           05  FILLER                   PIC X(42)  VALUE SPACES.
-       01  COLUMN-HEADER-LINE-TWO.
+001010 IDENTIFICATION DIVISION.
+001020
+001030 PROGRAM-ID.    SHIPPING-REPORT.
+001040 AUTHOR.        MICHAEL S. MELL.
+001050 INSTALLATION.  TT ODYSSEY, 41786AL.
+001060 DATE-WRITTEN.  NOVEMBER 16, 2026.
+001070 DATE-COMPILED. NOVEMBER , 2026.
+001080 SECURITY.      UNCLASSIFIED.
+001090     
+001100******************************************************************
+001110*                                                                *
+001120* SHIPPING-REPORT, A PROGRAM TO PRINT A SHIPPING REPORT BASED ON *
+001130* THE DATA IN "/usr/local/lib/DATASET1.DAT"                      *
+001140*                                                                *
+001150******************************************************************
+001160/
+002010 ENVIRONMENT DIVISION.
+002020
+002030 CONFIGURATION SECTION.
+002040
+002050 SOURCE-COMPUTER. penelope.
+002060 OBJECT-COMPUTER. Linux x86_64.
+002070 SPECIAL-NAMES.
+002080
+002090 INPUT-OUTPUT SECTION.
+002100
+002110 FILE-CONTROL.
+002120
+002130     SELECT INPUT-FILE
+002140       ASSIGN TO '/usr/local/lib/scpe/DATASET1.DAT'
+002150       ORGANIZATION IS LINE SEQUENTIAL.
+002160     SELECT REPORT-FILE
+002170       ASSIGN TO 'SHIPPING-REPORT.TXT'
+002180       ORGANIZATION IS LINE SEQUENTIAL.
+002190/
+003010 DATA DIVISION.
+003020
+003030 FILE SECTION.
+003040
+003050 FD  INPUT-FILE
+003060       RECORD CONTAINS 61 CHARACTERS
+003070       LABEL RECORDS ARE STANDARD
+003080       DATA RECORD IS INPUT-RECORD.
+003090 01  INPUT-RECORD.
+003100     05  FILLER                  PIC X(5).
+003110     05  PACKAGE-NUMBER-INPUT    PIC 9(3).
+003120     05  FILLER                  PIC X(21).
+003130     05  PACKAGE-CONTENTS-INPUT  PIC X(20).
+003140     05  FILLER                  PIC X(4).
+003150     05  SHIPPING-WEIGHT-INPUT   PIC 9(2).
+003160     06  SHIPPING-VALUE-INPUT    PIC 9(4)V9(2).
+003170
+003180 FD  REPORT-FILE
+003190       RECORD CONTAINS 127 CHARACTERS
+003200       LABEL RECORDS ARE OMITTED
+003210       DATA RECORD IS REPORT-LINE.
+003220 01  REPORT-LINE.
+003230     05  FILLER                  PIC X(2)    VALUE SPACES.
+003240     05  PACKAGE-NUMBER-REPORT   PIC ZZ9.
+003250     05  FILLER                  PIC X(4)    VALUE SPACES.
+003260     05  PACKAGE-CONTENTS-REPORT PIC X(20).
+003270     05  FILLER                  PIC X(6)    VALUE SPACES.
+003280     05  SHIPPING-WEIGHT-REPORT  PIC Z9.
+003290     05  FILLER                  PIC X(6)    VALUE SPACES.
+003300     05  SHIPPING-VALUE-REPORT   PIC Z,ZZZ.99.
+003310     05  FILLER                  PIC X(6)    VALUE SPACES.
+003320     05  SHIPPING-COST-REPORT    PIC Z.99.
+003330     05  FILLER                  PIC X(9)    VALUE SPACES.
+003340     05  INSURANCE-COST-REPORT   PIC ZZ.99.
+003350     05  FILLER                  PIC X(8)    VALUE SPACES.
+003360     05  TOTAL-COST-REPORT       PIC ZZ.99.
+003370     05  FILLER                  PIC X(35)   VALUE SPACES.
+003380
+003390 WORKING-STORAGE SECTION.
+003400
+003410 01  PROGRAM-INDICATORS.
+003420     05  ARE-THERE-MORE-RECORDS   PIC X(3)   VALUE 'YES'.
+003430         88  THERE-IS-A-RECORD               VALUE 'YES'.
+003440         88  THERE-ARE-NO-MORE-RECORDS       VALUE 'NO'.
+003450
+003460 01  PROGRAM-TABLES.
+003470     05  MONTHS-TABLE.
+003480         10  MONTH-CONSTANTS.
+003490             15  FILLER           PIC X(9)   VALUE 'JANUARY  '.
+003500             15  FILLER           PIC X(9)   VALUE 'FEBRUARY '.
+003510             15  FILLER           PIC X(9)   VALUE 'MARCH    '.
+003520             15  FILLER           PIC X(9)   VALUE 'APRIL    '.
+003530             15  FILLER           PIC X(9)   VALUE 'MAY      '.
+003540             15  FILLER           PIC X(9)   VALUE 'JUNE     '.
+003550             15  FILLER           PIC X(9)   VALUE 'JULY     '.
+003560             15  FILLER           PIC X(9)   VALUE 'AUGUST   '.
+003570             15  FILLER           PIC X(9)   VALUE 'SEPTEMBER'.
+003580             15  FILLER           PIC X(9)   VALUE 'OCTOBER  '.
+003590             15  FILLER           PIC X(9)   VALUE 'NOVEMBER '.
+003600             15  FILLER           PIC X(9)   VALUE 'DECEMBER '.
+003610         10  MONTH-TABLE REDEFINES MONTH-CONSTANTS
+003620                                  PIC X(9)   OCCURS 12 TIMES.
+003630/
+004010 01  PAGE-HEADER.
+004020     05  FILLER                   PIC X(59)  VALUE SPACES.
+004030     05  FILLER             PIC X(14)    VALUE 'SHIPPING REPORT'.
+004040     05  FILLER                   PIC X(59)  VALUE SPACES.
+004050 01  COLUMN-HEADER-LINE-ONE.
+004060     05  FILLER                   PIC X(8)   VALUE 'PACKAGE'.
+004070     05  FILLER                   PIC X(9)   VALUE SPACES.
+004080     05  FILLER                   PIC X(8)   VALUE 'PACKAGE'.
+004090     05  FILLER                   PIC X(9)   VALUE SPACES.
+004100     05  FILLER                   PIC X(8)   VALUE 'SHIPMENT'.
+004110     05  FILLER                   PIC X(3)   VALUE SPACES.
+004120     05  FILLER                   PIC X(8)   VALUE 'SHIPMENT'.
+004130     05  FILLER                   PIC X(6)   VALUE SPACES.
+004140     05  FILLER                   PIC X(9)   VALUE 'INSURANCE'.
+004150     05  FILLER                   PIC X(6)   VALUE SPACES.
+004160     05  FILLER                   PIC X(5)   VALUE 'TOTAL'.
+004170     05  FILLER                   PIC X(49)   VALUE SPACES.
+004180 01  COLUMN-HEADER-LINE-TWO.
            05  FILLER                   PIC X(8)   VALUE ''.
            05  FILLER                   PIC X(9)   VALUE SPACES.
            05  FILLER                   PIC X(8)   VALUE ''.
@@ -122,11 +138,20 @@
            05  SHIPPING-COST-PER-UNIT-WORK     PIC V99     VALUE .07.
            05  INSURANCE-COST-PER-UNIT-WORK    PIC V999    VALUE .005.
 
-       01  WORK-AREAS.
+       01  PROGRAM-VARIABLES.
+           05  NOW-WORK                        PIC X(21).
+           05  YEAR-WORK                       PIC 9(04).
+           05  MONTH-WORK                      PIC 9(02).
+           05  DAY-WORK                        PIC 9(02).
+           05  HOUR-WORK                       PIC 9(02).
+           05  MINUTE-WORK                     PIC 9(02).
+           05  SECOND-WORK                     PIC 9(02).
+           05  MILLISECOND-WORK                PIC 9(02).
+           05  OFFSET-FROM-GMT-WORK            PIC X(05).
            05  SHIPPING-COST-WORK              PIC 9V99.
            05  INSURANCE-COST-WORK             PIC 99V99.
            05  PACKAGE-TOTAL-COST-WORK         PIC 99V99.
-
+      /
        01  PROGRAM-ACCUMULATORS-COUNTERS
            05  REPORT-TOTAL-SHIPMENTS-COUNT    PIC 999.
            05  SHIPPING-COST-ACCUMULATOR       PIC 999V99.
@@ -152,14 +177,27 @@
       *              T A B L E   O F   C O N T E N T S                 *
       *                                                                *
       * A000-CREATE-TAX-REPORT         A100-CREATE-TAX-REPORT-PAGE     *
-      * B000-PROCESS-DETAIL-RECORDS    B900-PRINT-FINAL-TOTALS         *
+      * B000-PROCESS-DETAIL-RECORDS    B100-CREATE-PAGE-HEADER         *
+      * B200-PRINT-FINAL-TOTALS        B300-CREATE-PAGE-FOOTER         *
       *                                                                *
       ******************************************************************
 
        A000-CREATE-TAX-REPORT.
-           MOVE SINGLE-SPACED TO LINE-SPACING.
            OPEN INPUT  INPUT-FILE
                 OUTPUT REPORT-FILE.
+           MOVE FUNCTION CURRENT-DATE TO NOW-WORK
+           MOVE NOW-WORK(1:4)   TO YEAR-WORK
+           MOVE NOW-WORK(5:2)   TO MONTH-WORK
+           MOVE NOW-WORK(7:2)   TO DAY-WORK
+           MOVE NOW-WORK(9:2)   TO HOUR-WORK
+           MOVE NOW-WORK(11:2)  TO MINUTE-WORK
+           MOVE NOW-WORK(13:2)  TO SECOND-WORK
+           MOVE NOW-WORK(15:2)  TO MILLISECOND-WORK
+           MOVE NOW-WORK(17:5)  TO OFFSET-FROM-GMT-WORK
+           MOVE MONTH-WORK TO MONTH-REPORT
+           MOVE DAY-WORK TO DAY-REPORT
+           MOVE YEAR-WORK TO YEAR-REPORT
+           MOVE SINGLE-SPACED TO LINE-SPACING.
            READ INPUT-FILE
                  AT END
                     MOVE 'NO ' TO ARE-THERE-MORE-RECORDS.
@@ -176,6 +214,9 @@
       *                                                                *
       ******************************************************************
            IF LINE-NUMBER = 1
+               MOVE MONTH-WORK TO MONTH-REPORT
+               MOVE DAY-WORK TO DAY-REPORT
+               MOVE YEAR-WORK TO YEAR-REPORT
                MOVE PAGE-HEADER to REPORT-LINE
                WRITE REPORT-LINE BEFORE ADVANCING 2 LINES
                ADD 2 TO LINE-NUMBER
