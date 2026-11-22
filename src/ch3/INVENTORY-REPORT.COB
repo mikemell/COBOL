@@ -26,10 +26,10 @@
        FILE-CONTROL.
 
            SELECT INPUT-FILE
-             ASSIGN TO '/usr/local/lib/DATASET1.DAT'
+             ASSIGN TO '/usr/local/lib/INVENTRY.DAT'
              ORGANIZATION IS LINE SEQUENTIAL.
            SELECT REPORT-FILE
-             ASSIGN TO 'INVENTORY-REPORT.TXT'
+             ASSIGN TO '/usr/local/var/scpe/INV-RPT.TXT'
              ORGANIZATION IS LINE SEQUENTIAL.
       /
        DATA DIVISION.
